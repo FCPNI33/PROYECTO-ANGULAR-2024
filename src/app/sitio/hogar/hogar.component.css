@@ -1,0 +1,143 @@
+/*Hogar Inicio*/
+.contenedor-hogar {
+  background-image: url("./../../../assets/image/img-1.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding: 3% 3% 3% 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.hogar-navegacion {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.hogar-navegacion-1 {
+  color: var(--color-primario);
+  font-size: 36px;
+  font-weight: 600;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.hogar-navegacion-1:hover {
+  color: var(--color-secundario);
+  font-size: 40px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hogar-navegacion-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 16px;
+}
+
+.hogar-navegacion-2 a {
+  color: var(--color-primario);
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hogar-navegacion-2 a:hover {
+  color: var(--color-secundario);
+  font-size: 19px;
+  font-weight: 600;
+}
+
+#activo {
+  color: var(--color-secundario);
+  font-size: 21px;
+  font-weight: 700;
+}
+
+#activo:hover {
+  color: var(--color-primario);
+  font-size: 22px;
+}
+
+.hogar-contenido {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+
+.hogar-contenido-1 h1 {
+  font-size: 56px;
+  color: var(--color-secundario-claro);
+}
+
+.hogar-contenido-1 p {
+  text-align: justify;
+  font-size: 18px;
+  color: var(--color-blanco);
+}
+
+.hogar-contenido-2 {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hogar-contenido-2-1 {
+  color: var(--color-blanco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  width: 30%;
+  height: 90%;
+  background-color: var(--color-primario-claro);
+  border: 3px soli var(--color-primario-claro);
+  border-radius: 26px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.6s;
+  text-decoration: none;
+}
+
+.hogar-contenido-2-1:hover {
+  padding: 9px;
+  width: 36%;
+  height: 100%;
+  color: var(--color-negro);
+  background-color: var(--color-secundario);
+  border: 3px soli var(--color-secundario);
+  transition: 0.6s;
+}
+
+.hogar-footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.hogar-footer i {
+  color: var(--color-primario-claro);
+  border-radius: 26px;
+  border: solid 2px var(--color-primario-claro);
+  font-size: 36px;
+  padding: 6px;
+  transition: 0.3s;
+}
+
+.hogar-footer i:hover {
+  color: var(--color-secundario);
+  border-radius: 26px;
+  border: solid 2px var(--color-secundario);
+  font-size: 36px;
+  padding: 6px;
+  transition: 0.3s;
+}
+
+/*Hogar Fin*/
